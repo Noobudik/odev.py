@@ -1,7 +1,7 @@
 with open('sayilar1') as file:
     sayilar = [int(line) for line in file]
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
+!!!!!!!!!!!!!!!!!!
 def main():
     boolean = True
     while boolean:
