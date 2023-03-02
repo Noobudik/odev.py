@@ -13,4 +13,3 @@
 #else:
 #    kare_alan = kare_kenar ** 2
 #    print('Karenin Alanı =', round(kare_alan, 2))
-
