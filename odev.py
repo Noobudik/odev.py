@@ -1,5 +1,7 @@
-with open('sayilar1') as file:
-    sayilar = [int(line) for line in file]
+with open('sayilar1') as sayilar2:
+    sayilar = list()
+    for satir in sayilar2:
+        sayilar.append(int(satir))
 
 
 def main():
@@ -21,10 +23,8 @@ def main():
                 for i in range(len(sayilar)):
                     for l in range(i+1, len(sayilar)):
                         if sayilar[i] + sayilar[l] == girilen:
-                            i = i + 1
-                            l = l + 1
-                            print('Girilen Sayı', (i), '. Satırdaki', (sayilar[i-1]), 'Sayısı \tVe\t',
-                                  (l), '. Satırdaki',(sayilar[l-1]), 'Sayısının Toplamlarına Eşittir.')
+                            print('Girilen Sayı', (i+1), '. Satırdaki', (sayilar[i]), 'Sayısı \tVe\t',
+                                  (l+1), '. Satırdaki',(sayilar[l]), 'Sayısının Toplamlarına Eşittir.')
                             boolean = False
                         else:
                             boolean = False
