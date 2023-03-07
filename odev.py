@@ -13,7 +13,7 @@ def main():
             print('Harf Girmeyiniz !')
         else:
             girilen = int(girilen)
-            if girilen > 100:
+            if girilen >= 100:
                 print('100\'den Küçük Bir Sayı Giriniz !')
                 boolean = True
             elif girilen <= 1:
